@@ -13,3 +13,4 @@ class MyProducer {
         kafkaTemplate.send("simple-message-topic", message)
     }
 }
+
